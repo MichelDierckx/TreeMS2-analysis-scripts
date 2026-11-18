@@ -1,0 +1,25 @@
+# Only the analysis scripts are tracked in git. The data, iTOL files,
+# supplementary material and TreeMS2 inputs are on Zenodo
+# (https://doi.org/10.5281/zenodo.24347634); extract them into this folder.
+
+# Ignore everything in the repository root ...
+/*
+
+# ... except these.
+!/.gitignore
+!/LICENSE
+!/README.md
+!/scripts/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments, editors and OS files
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
