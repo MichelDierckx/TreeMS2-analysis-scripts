@@ -13,6 +13,13 @@ TreeMS2 is open source under the Apache 2.0 license: https://github.com/bittremi
 
 ## Usage
 
+Create the conda environment with the package versions used for the manuscript:
+
+```bash
+conda env create -f environment.yaml
+conda activate treems2-manuscript
+```
+
 Run the scripts from the repository root:
 
 ```bash
@@ -20,8 +27,6 @@ python scripts/runtime/fig2_runtime_comparison.py
 ```
 
 Outputs are written to `figures/`, `tables/` and `temp/`.
-
-Tested with Python 3.12, numpy 2.0.1, pandas 2.3.1, matplotlib 3.10.0, seaborn 0.13.2, scikit-learn 1.7.1, umap-learn 0.5.11, dendropy 5.0.8, scikit-bio 0.7.0 and ete3 3.1.3.
 
 ## Scripts
 

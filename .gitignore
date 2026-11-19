@@ -9,6 +9,7 @@
 !/.gitignore
 !/LICENSE
 !/README.md
+!/environment.yaml
 !/scripts/
 
 # Python

@@ -1,0 +1,26 @@
+# Conda environment for the TreeMS2 manuscript analysis scripts.
+#
+#   conda env create -f environment.yaml
+#   conda activate treems2-manuscript
+#
+# Versions are pinned to the ones used for the manuscript analyses. UMAP and
+# MDS embeddings can change with other versions of umap-learn, pynndescent,
+# numba, scikit-learn or scipy.
+name: treems2-manuscript
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12.3
+  - numpy=2.0.1
+  - pandas=2.3.1
+  - scipy=1.16.0
+  - matplotlib-base=3.10.0
+  - seaborn=0.13.2
+  - scikit-learn=1.7.1
+  - umap-learn=0.5.11
+  - pynndescent=0.5.13
+  - numba=0.61.0
+  - scikit-bio=0.7.2
+  - dendropy=5.0.8
+  - ete3=3.1.3
